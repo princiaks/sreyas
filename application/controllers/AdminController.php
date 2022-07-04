@@ -61,6 +61,7 @@ class AdminController extends CI_Controller {
 			$result=$this->admin_model->insert_user($data);
 			$response=array('success'=>$result,'status'=>'error','title'=>'Failed!!','msg'=>'User Registration Failed','redirect'=>'');
 			if($result)
+			$this->send_success_mail($data);
 			$response=array('success'=>$result,'status'=>'success','title'=>'Success!!','msg'=>'Registration Successfull','redirect'=>'verify-email');
 			echo json_encode($response);
 			}
@@ -85,8 +86,9 @@ class AdminController extends CI_Controller {
 		$this->email->initialize($config);
 		$this->email->from('princiaks@gmail.com', 'Email Verification Mail');
 		$this->email->to($data['email_id']);
-		$this->email->subject('Order Success Mail');
-		$emaildescription=$this->load->view('email/order_confirm_mail',$data,TRUE);
+		$this->email->subject('Sreyas-please verify your email address
+		');
+		$emaildescription=$this->load->view('email/email_verification_mail',$data,TRUE);
 		$this->email->message($emaildescription);
 		$result=$this->email->send();   
 		$this->email->from('neworder@pomoservices.com', 'New Order Received Mail');
