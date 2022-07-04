@@ -8,7 +8,8 @@
                         <div class="sign-in-from bg-white">
                             <h1 class="mb-0">Please Verify your Email ID</h1>
                             <div class="card">
-                                <p class="card-title">We have sent an verification link to your email id..Please Login to your email account and verify</p>
+                                <p class="card-title">We have sent an verification link to your email id..Please Login to your email account and verify
+                                </p>
                             </div>
                               
                            

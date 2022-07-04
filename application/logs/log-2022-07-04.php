@@ -54,3 +54,16 @@ ERROR - 2022-07-04 12:21:34 --> 404 Page Not Found: Js/tinymce
 ERROR - 2022-07-04 12:21:35 --> 404 Page Not Found: Js/admin
 ERROR - 2022-07-04 12:21:35 --> 404 Page Not Found: Js/admin
 ERROR - 2022-07-04 12:21:35 --> 404 Page Not Found: Css/admin
+ERROR - 2022-07-04 13:03:04 --> 404 Page Not Found: Js/tinymce
+ERROR - 2022-07-04 13:03:04 --> 404 Page Not Found: Js/admin
+ERROR - 2022-07-04 13:03:05 --> 404 Page Not Found: Js/admin
+ERROR - 2022-07-04 13:03:05 --> 404 Page Not Found: Css/admin
+ERROR - 2022-07-04 13:05:10 --> 404 Page Not Found: Js/admin
+ERROR - 2022-07-04 13:05:10 --> 404 Page Not Found: Js/admin
+ERROR - 2022-07-04 13:05:11 --> 404 Page Not Found: Css/admin
+ERROR - 2022-07-04 13:05:11 --> 404 Page Not Found: Js/tinymce
+ERROR - 2022-07-04 13:05:12 --> 404 Page Not Found: Js/admin
+ERROR - 2022-07-04 13:05:12 --> 404 Page Not Found: Js/admin
+ERROR - 2022-07-04 13:05:13 --> 404 Page Not Found: Css/admin
+ERROR - 2022-07-04 13:05:37 --> 404 Page Not Found: Js/tinymce
+ERROR - 2022-07-04 13:09:14 --> 404 Page Not Found: Js/tinymce

@@ -53,6 +53,7 @@ $route['default_controller']                = 'AdminController';
 $route['404_override']                      = '';
 $route['register-user']                     = 'AdminController/user_registration';
 $route['verify-email']                      = 'AdminController/verify_email_view';
+$route['user-verify-email/(:any)/(:any)']   = 'AdminController/verify_email/$1/$2';
 
 
 
